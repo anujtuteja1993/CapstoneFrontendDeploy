@@ -14,7 +14,7 @@ const Games = () => {
 
   useEffect(() => {
     const fetchGames = () => {
-      fetch('https://capstone-backend-83aj.onrender.com/games/getGamesByGenre?genres=["Action","Adventure","RPG", "Racing", "Shooter", "Fighting", "Strategy", "Platformer"]')
+      fetch('https://capstone-backend-anuj.adaptable.app/games/getGamesByGenre?genres=["Action","Adventure","RPG", "Racing", "Shooter", "Fighting", "Strategy", "Platformer"]')
         .then(resp => resp.json())
         .then(({ data }) => {
           setGames(data);

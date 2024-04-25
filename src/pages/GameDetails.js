@@ -24,10 +24,10 @@ const GameDetails = () => {
   }
 
 
-  const fetchGameDetailsURL = "https://capstone-backend-83aj.onrender.com/games/fetchGameByID?game_ids=[" + id + "]";
-  const fetchGameScreenshotsURL = "https://capstone-backend-83aj.onrender.com/games/fetchGameScreenshotByID?game_id=" + id;
+  const fetchGameDetailsURL = "https://capstone-backend-anuj.adaptable.app/games/fetchGameByID?game_ids=[" + id + "]";
+  const fetchGameScreenshotsURL = "https://capstone-backend-anuj.adaptable.app/games/fetchGameScreenshotByID?game_id=" + id;
   const fetchGameDescriptionURL = "https://api.rawg.io/api/games/" + id + "?key=f2b65746f0874d129d3550dd301e2b74"
-  const fetchGamePlatformsURL = "https://capstone-backend-83aj.onrender.com/games/getGamePlatformDetailsByID?game_id=" + id;
+  const fetchGamePlatformsURL = "https://capstone-backend-anuj.adaptable.app/games/getGamePlatformDetailsByID?game_id=" + id;
 
 
   useEffect(() => {

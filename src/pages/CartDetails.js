@@ -84,7 +84,7 @@ function CartDetails() {
       }
     });
 
-    fetch("https://capstone-backend-83aj.onrender.com/games/fetchGameByID?game_ids=[" + uniqueGames + "]")
+    fetch("https://capstone-backend-anuj.adaptable.app/games/fetchGameByID?game_ids=[" + uniqueGames + "]")
       .then(resp => resp.json())
       .then(data => {
         let tempArr = [];

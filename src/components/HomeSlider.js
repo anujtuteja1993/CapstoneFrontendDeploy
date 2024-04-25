@@ -11,7 +11,7 @@ function HomeSlider() {
   }, [])
 
   const fetchGames = () => {
-    fetch('https://capstone-backend-83aj.onrender.com/games/getTenGameDetails')
+    fetch('https://capstone-backend-anuj.adaptable.app/games/getTenGameDetails')
       .then(resp => resp.json())
       .then(({ data }) => {
         setGames(data);
