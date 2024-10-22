@@ -11,9 +11,9 @@ const Home = () => {
   const [classicGames, setClassicGames] = useState();
 
   //URLs for the API calls
-  const fetchCriticallyAcclaimedGamesURL = 'https://capstone-backend-anuj.adaptable.app/games/getCriticallyAcclaimedGames';
-  const fetchHighestUserRatedGamesURL = 'https://capstone-backend-anuj.adaptable.app/games/getHighestUserRatedGames';
-  const fetchClassicGamesURL = 'https://capstone-backend-anuj.adaptable.app/games/getClassicGames';
+  const fetchCriticallyAcclaimedGamesURL = 'https://capstone-backend-83aj.onrender.com/games/getCriticallyAcclaimedGames';
+  const fetchHighestUserRatedGamesURL = 'https://capstone-backend-83aj.onrender.com/games/getHighestUserRatedGames';
+  const fetchClassicGamesURL = 'https://capstone-backend-83aj.onrender.com/games/getClassicGames';
 
   //API calls in UseEffect using Promise.all
   useEffect(() => {

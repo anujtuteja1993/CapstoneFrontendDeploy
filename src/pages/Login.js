@@ -28,7 +28,7 @@ const Login = (props) => {
                 throw new Error('Email or Password required');
             }
 
-            const response = await axios.post('https://capstone-backend-anuj.adaptable.app/users/userLogin', {
+            const response = await axios.post('https://capstone-backend-83aj.onrender.com/users/userLogin', {
                 email: email,
                 password: password
             })

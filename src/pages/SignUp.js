@@ -25,7 +25,7 @@ const SignUp = (props) => {
 
         if (Object.keys(formErrorValidation).length > 0) return;
         try {
-            const response = await axios.post('https://capstone-backend-anuj.adaptable.app/users/registerUser', {
+            const response = await axios.post('https://capstone-backend-83aj.onrender.com/users/registerUser', {
                 email: email,
                 password: password,
                 firstName: firstName,

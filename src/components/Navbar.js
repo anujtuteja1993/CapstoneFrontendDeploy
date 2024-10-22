@@ -28,7 +28,7 @@ const Navbar = () => {
     if (e.key === "Enter") {
       e.preventDefault();
       let searchParam = e.target.value;
-      const SearchAPIURL = `https://capstone-backend-anuj.adaptable.app/games/searchGamesbyName?game_name=${searchParam}`;
+      const SearchAPIURL = `https://capstone-backend-83aj.onrender.com/games/searchGamesbyName?game_name=${searchParam}`;
       fetch(SearchAPIURL)
         .then(resp => resp.json())
         .then(({ data }) => {
@@ -44,7 +44,7 @@ const Navbar = () => {
   const userLogout = async () => {
     try {
       const email = localStorage.getItem('user');
-      const response = await axios.post('https://capstone-backend-anuj.adaptable.app/users/userLogout', {
+      const response = await axios.post('https://capstone-backend-83aj.onrender.com/users/userLogout', {
         email: email,
       })
 
